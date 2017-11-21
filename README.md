@@ -5,3 +5,6 @@
 •	Calculated movie rating matrix from Netflix dataset using collaborative filtering algorithm.
 
 •	Implemented MapReduce Java code for co-occurrence matrix generation and multiplication of co-occurrence matrix and movie rating matrix to obtain recommendation list.
+
+# Screenshot
+<img src="https://github.com/Jameslovecs/Big-Data-RecommenderSystem/blob/master/Movie%20Recommender%20System.jpg"/>
