@@ -51,11 +51,6 @@ I preprocessed the original dataset in two steps:
 <img src="https://github.com/Jameslovecs/Big-Data-RecommenderSystem/blob/master/Movie%20Recommender%20System.jpg"/>
 
 
-final result:
-
-
-![](pic/demo.png)
-
 ## Deploy
 we deploy a hadoop cluster on Docker, this cluster has one Masternode and two slavenodes. The whole project is based on the docker.
 
