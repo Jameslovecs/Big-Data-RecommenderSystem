@@ -4,14 +4,6 @@
 
 In this project, I built a movie recommender system based on Item Collaborative Filtering using Hadoop MapReduce in Java (Docker).
 
-## Key Points
-
-•	Developed a movie recommender system to users using Netflix dataset and the Hadoop framework.
-
-•	Calculated movie rating matrix from Netflix dataset using collaborative filtering algorithm.
-
-•	Implemented MapReduce Java code for co-occurrence matrix generation and multiplication of co-occurrence matrix and movie rating matrix to obtain recommendation list.
-
 ## Project Data
 Data comes from the training dataset of Netflix Prize Challenge. The following is the information from its README.
 
