@@ -49,3 +49,37 @@ I preprocessed the original dataset in two steps:
 
 # Screenshot
 <img src="https://github.com/Jameslovecs/Big-Data-RecommenderSystem/blob/master/Movie%20Recommender%20System.jpg"/>
+
+
+final result:
+
+
+![](pic/demo.png)
+
+## Deploy
+we deploy a hadoop cluster on Docker, this cluster has one Masternode and two slavenodes. The whole project is based on the docker.
+
+
+```
+hadoop com.sun.tools.javac.Main *.java
+
+jar cf recommender.jar *.class
+
+hadoop jar recommender.jar Driver /input /dataDividedByUser /coOccurrenceMatrix /Normalize /Multiplication /Sum
+```
+
+* args0: original dataset
+
+* args1: output directory for DividerByUser job
+
+* args2: output directory for coOccurrenceMatrixBuilder job
+
+* args3: output directory for Normalize job
+
+* args4: output directory for Multiplication job
+
+* args5: output directory for Sum job
+
+
+
+
